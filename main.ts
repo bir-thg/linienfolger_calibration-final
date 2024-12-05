@@ -1,6 +1,3 @@
-function istZielErreicht () {
-	
-}
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     basic.showNumber(maqueen.readPatrol(maqueen.Patrol.PatrolLeft))
     basic.pause(2000)
